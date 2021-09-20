@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poiret One";
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $text-main;
+  background-color: $bg-main;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: $bg-bar;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: $bg-scroller;
+}
+
+h2 {
+  color: $text-main;
+  font-size: $font-normal;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+svg {
+  display: none;
+}

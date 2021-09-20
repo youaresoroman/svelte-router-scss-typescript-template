@@ -1,0 +1,194 @@
+//! COLOR PALETTE
+$red: #f83839;
+$red-muted: #fbe5c8;
+$different: #ff4500;
+$blue: #191970;
+$blue-muted: #43b0f1;
+$sky-muted: #c8f4f9;
+$sky: #8fdde7;
+$gray-muted: #e8eef1;
+
+$babyblue: #eee4ed;
+$rosewater: #eee4ed;
+$spearmint: #faf3e9;
+
+$tiffanyblue: #ffcfd8;
+$turquoise: #ffcfd8;
+$coral: #ffcfd8;
+$ivory: #E7E7E0;
+$black: #170f18;
+$white: white;
+
+$bg-main: $white;
+$text-main: $black;
+
+$bg-blocks: $spearmint;
+$text-blocks: $black;
+$text-blocks-w: $white;
+
+$bg-nav: $rosewater;
+$text-nav: $black;
+$text-nav-a: $black;
+
+$bg-btn: $spearmint;
+$text-btn: $black;
+$bg-btn-a: $rosewater;
+$text-btn-a: $black;
+$bg-input: $white;
+$bg-input-a: $white;
+$text-input: $black;
+$text-input-a: $black;
+
+$bg-slider: #eb727b;
+$bg-bullet: $rosewater;
+
+$bg-btn-head: $coral;
+$bg-btn-head-a: $coral;
+$text-btn-head: $black;
+$text-btn-head-a: $black;
+
+$bg-model: $babyblue;
+$bg-model-descr: $tiffanyblue;
+$bg-model-descr-a: $tiffanyblue;
+$bg-model-descr-sale: #eb727b;
+$text-model: $black;
+$text-model-descr: $black;
+$text-model-descr-a: $black;
+
+$bg-model-btn: $babyblue;
+$bg-model-btn-a: $babyblue;
+
+//#baafcd
+$bg-model-btn-ok: $babyblue;
+
+//#f52b34
+$bg-model-btn-ok-a: $babyblue;
+$bg-model-btn-undo: $babyblue;
+$bg-model-btn-undo-a: $babyblue;
+$text-model-btn: $black;
+$text-model-btn-a: $black;
+$text-model-btn-ok: $black;
+$text-model-btn-ok-a: $black;
+$text-model-btn-undo: $black;
+$text-model-btn-undo-a: $black;
+
+$text-promo: $white;
+
+$bg-tabs: $spearmint;
+$text-tabs: $black;
+$bg-tabs-a: $white;
+$text-tabs-a: $black;
+$bg-tabs-item: $white;
+$bg-tabs-item-a: $babyblue;
+$text-tabs-item: $black;
+
+$bg-cb: $turquoise;
+$bg-cb-a: $turquoise;
+$text-cb: $black;
+
+$bg-cart-item: $babyblue;
+$text-cart-item-descr: $black;
+$text-cart-item-name: $black;
+$text-cart-item-price: $black;
+$bg-cart-btn: $bg-cart-item;
+$bg-cart-btn-a: $bg-cart-item;
+
+$bg-bar: $babyblue;
+$bg-scroller: $coral;
+
+$bg-modal: $spearmint;
+$text-modal: $black;
+$bg-modal-bar: $spearmint;
+$bg-modal-bar-a: $turquoise;
+$text-modal-bar: $black;
+$bg-modal-content: $white;
+
+$bg-loader: $turquoise;
+$text-loader: $black;
+
+$bg-footer: white;
+
+/* $promo-btn-bg: #DB1F48;
+$promo-btn-text: white;
+$promo-btn-bg-hover: #F582A8;
+$promo-btn-text-hover: black;
+$footer-bg-color: #01949A;
+$footer-text: white;
+
+$tab-bg: #88CA5E;
+$tab-text: black;
+$tab-bg-hover: #1D741B;
+$tab-text-hover: white; */
+
+//! FONT
+$font-smallest: 0.7rem;
+$font-smaller: 0.8rem;
+$font-small: 0.9rem;
+$font-medium: 1rem;
+$font-normal: 1.2rem;
+$font-big: 2rem;
+$font-standart: 600;
+$font-bold: 700;
+$font-bolder: 800;
+$font-title: "Pacifico", cursive;
+$font-title-size: 1.6rem;
+$font-model: "Pacifico", cursive;
+
+//! SIZES
+$nav-height: 3rem;
+$nav-logo-height: 4rem;
+$nav-width: 16rem;
+$nav-left: 2rem;
+$nav-top: 2rem;
+$nav-mobile-height: 3.5rem;
+$nav-tablet-logo-height: 5.5rem;
+$nav-tablet-height: 3rem;
+$nav-tablet-full-height: $nav-tablet-logo-height + $nav-tablet-height;
+$nav-desktop-logo-height: 5.5rem;
+$nav-desktop-height: 4rem;
+$nav-desktop-full-height: $nav-desktop-logo-height + $nav-desktop-height;
+
+$round-design: 40px;
+
+//! ANIMATION
+$animation-speed: 600ms;
+
+//! MEDIA
+$tablet: "screen and (min-width: 480px)";
+$desktop: "screen and (min-width: 769px)";
+$bigone: "screen and (min-width: 1023px)";
+$large: "screen and (min-width: 1279px)";
+$xlarge: "screen and (min-width: 1439px)";
+$xxlarge: "screen and (min-width: 1919px)";
+
+@mixin centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin shadow-brighter {
+    -webkit-box-shadow: 0px 1px 20px 1px rgba(245, 31, 74, 0.8);
+    box-shadow: 0px 1px 20px 1px rgba(245, 31, 74, 0.8);
+}
+
+@mixin shadow-bright {
+    -webkit-box-shadow: 0px 1px 20px 1px rgba(238, 31, 72, 0.4);
+    box-shadow: 0px 1px 20px 1px rgba(219, 31, 72, 0.4);
+}
+
+@mixin shadow {
+    -webkit-box-shadow: 0px 1px 20px 1px rgba(202, 194, 201, 0.7);
+    box-shadow: 0px 1px 20px 1px rgba(202, 194, 201, 0.7);
+}
+
+@mixin active {
+    filter: brightness(0.5) sepia(1) hue-rotate(-70deg)
+                                saturate(5);
+}
+
+@import "https://fonts.googleapis.com/css2?family=Pacifico&display=swap";
+
+@import "https://fonts.googleapis.com/css2?family=Poiret+One&display=swap";
+
+@import "https://fonts.googleapis.com/css2?family=Parisienne&display=swap";
